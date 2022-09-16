@@ -4,11 +4,9 @@ import Picture from '~/components/core/Picture.astro';
 ---
 
 <section class="px-4 py-16 sm:px-6 mx-auto lg:px-8 lg:py-20 max-w-6xl">
-	<div class="grid gap-6 row-gap-10 md:grid-cols-2">
+	<div class="grid gap-6 row-gap-10 md:grid-cols-1 text-justify">
 		<div class="md:pb-6 md:pr-16">
-			<h2 class="mb-8 text-3xl lg:text-4xl font-bold font-heading">
-				Sed ac magna sit amet risus tristique interdum. hac.
-			</h2>
+			<h2 class="mb-8 text-3xl lg:text-4xl font-bold font-heading">We guide you from idea to launch.</h2>
 			<div class="flex">
 				<div class="flex flex-col items-center mr-4">
 					<div>
@@ -19,11 +17,11 @@ import Picture from '~/components/core/Picture.astro';
 					<div class="w-px h-full bg-gray-300 dark:bg-slate-500"></div>
 				</div>
 				<div class="pt-1 pb-8">
-					<p class="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">Step 1</p>
+					<p class="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">Step 1 : Discovery</p>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi
-						risus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula. Fusce
-						sit amet dui tellus.
+						At the beggining, we start to mapping out a timeline and resources for the development. We connect your
+						value propositions with the corresponding software requirements — through interviews with stakeholders and
+						end-users, technical research and architecture mockups, and feedback-driven iterations.
 					</p>
 				</div>
 			</div>
@@ -37,10 +35,12 @@ import Picture from '~/components/core/Picture.astro';
 					<div class="w-px h-full bg-gray-300 dark:bg-slate-500"></div>
 				</div>
 				<div class="pt-1 pb-8">
-					<p class="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">Step 2</p>
+					<p class="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">Step 2 : Architecture & Design</p>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi
-						risus tempus nulla, sed porttitor est nibh at nulla.
+						We map out the architecture and depicts the business logic of the smart contracts. <br />
+						This phase is crucial and requires a lot of thought and effort to ensure the system is secure and scalable. Technical
+						debt is often introduced when the wrong architecture is implemented and as time goes by it introduced will be
+						compounded over time.
 					</p>
 				</div>
 			</div>
@@ -54,10 +54,50 @@ import Picture from '~/components/core/Picture.astro';
 					<div class="w-px h-full bg-gray-300 dark:bg-slate-500"></div>
 				</div>
 				<div class="pt-1 pb-8">
-					<p class="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">Step 3</p>
+					<p class="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">Step 3 : Developing smart contracts</p>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi
-						risus tempus nulla, sed porttitor est nibh at nulla.
+						At cyberse, we use an agile development process to implement user-stories and features. We emphasize on
+						automated testing and continuous integration to ensure the quality of the code. We also use a manual code
+						review process to ensure the code is secure.
+					</p>
+				</div>
+			</div>
+			<div class="flex">
+				<div class="flex flex-col items-center mr-4">
+					<div>
+						<div class="flex items-center justify-center w-10 h-10 rounded-full border-secondary-500 border-2">
+							<Icon name="tabler:arrow-down" class="w-6 h-6 text-gray-600 dark:text-slate-200 icon-bold" />
+						</div>
+					</div>
+					<div class="w-px h-full bg-gray-300 dark:bg-slate-500"></div>
+				</div>
+				<div class="pt-1 pb-8">
+					<p class="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">Step 4 : Security Audit</p>
+					<p>
+						After contracts have been implemented, we prepare a security audit from a trusted third party. First, we
+						confirm that our contracts meet our security and functional requirements and that our testnet deployment
+						plan is sound. Then, we examine all security warnings in our cutting-edge audit software and painstakingly
+						try to find ways to improve it if needed. Finally, as an added security measure, we prepare a spreadsheet
+						that organizes each test scenario and exhibits the corresponding acceptance criterion from where we would
+						count the point wise coverage.
+					</p>
+				</div>
+			</div>
+			<div class="flex">
+				<div class="flex flex-col items-center mr-4">
+					<div>
+						<div class="flex items-center justify-center w-10 h-10 rounded-full border-secondary-500 border-2">
+							<Icon name="tabler:arrow-down" class="w-6 h-6 text-gray-600 dark:text-slate-200 icon-bold" />
+						</div>
+					</div>
+					<div class="w-px h-full bg-gray-300 dark:bg-slate-500"></div>
+				</div>
+				<div class="pt-1 pb-8">
+					<p class="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">Step 5 : Deployment & Monitoring</p>
+					<p>
+						When the "Audit" is complete, we use our monitoring tools to visualize and analyze the behavior of our smart
+						contracts and ensure that everything works fine. Between audits, however, we already established a process
+						to monitor whether our contracts behave as expected with real-time alerting.
 					</p>
 				</div>
 			</div>
@@ -78,11 +118,11 @@ import Picture from '~/components/core/Picture.astro';
 		<div class="relative">
 			<Picture
 				class="inset-0 object-cover object-top w-full rounded-md shadow-lg md:absolute md:h-full bg-gray-400 dark:bg-slate-700"
-				src={import('~/assets/images/astronaut.jpg')}
+				src={import('~/assets/images/eth_blockchain.jpg')}
 				widths={[400, 768]}
 				sizes="(max-width: 768px) 100vw, 432px"
 				alt="Astronaut"
-				aspectRatio="432:768"
+				aspectRatio="16:9"
 			/>
 		</div>
 	</div>
