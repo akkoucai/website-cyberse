@@ -1,12 +1,10 @@
 ---
-import { Icon } from 'astro-icon';
-import Picture from '~/components/core/Picture.astro';
 ---
 
 <style>
 	.reveal {
 		position: relative;
-		transform: translateY(150px);
+		transform: translateY(50px);
 		opacity: 0;
 		transition: 0.7s all ease;
 	}
@@ -14,6 +12,11 @@ import Picture from '~/components/core/Picture.astro';
 	.reveal.active {
 		transform: translateY(0);
 		opacity: 1;
+	}
+
+	.number_round {
+		--tw-bg-opacity: 1;
+		background-color: rgb(22 78 99 / var(--tw-bg-opacity));
 	}
 </style>
 
@@ -23,7 +26,7 @@ import Picture from '~/components/core/Picture.astro';
 		for (var i = 0; i < reveals.length; i++) {
 			var windowHeight = window.innerHeight;
 			var elementTop = reveals[i].getBoundingClientRect().top;
-			var elementVisible = 150;
+			var elementVisible = 50;
 			if (elementTop < windowHeight - elementVisible) {
 				reveals[i].classList.add('active');
 			} else {
@@ -37,7 +40,7 @@ import Picture from '~/components/core/Picture.astro';
 	reveal();
 </script>
 
-<section class="px-4 py-16 sm:px-6 mx-auto lg:px-8 lg:py-20 max-w-6xl">
+<section class="px-4 py-16 sm:px-6 mx-auto lg:px-8 lg:py-20 max-w-6xl" id="process">
 	<div class="text-center">
 		<h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">We guide you from idea to launch.</h2>
 	</div>
@@ -46,7 +49,7 @@ import Picture from '~/components/core/Picture.astro';
 			<div class="relative">
 				<!-- Vertical middle line-->
 				<div
-					class="absolute hidden w-2 h-full transform -translate-x-1/2 bg-gradient-to-t from-indigo-500 via-purple-500 to-pink-500 lg:block left-1/2"
+					class="absolute hidden w-2 h-full transform -translate-x-1/2 bg-gradient-to-t from-blue-800 to-cyan-400 lg:block left-1/2"
 				>
 				</div>
 
@@ -64,7 +67,7 @@ import Picture from '~/components/core/Picture.astro';
 						<div class="flex flex-col items-center js-show-on-scroll">
 							<div class="flex items-center justify-start w-full mx-auto">
 								<div class="w-full lg:w-1/2 lg:pr-8">
-									<div class="p-4 bg-white rounded shadow-lg shadow-cyan-300">
+									<div class="dark:bg-slate-800 p-4 bg-white rounded shadow-lg shadow-cyan-300">
 										<div class="pt-1 pb-8">
 											<p class="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">Discovery</p>
 											<p class="text-justify justify-center pt-2">
@@ -78,7 +81,7 @@ import Picture from '~/components/core/Picture.astro';
 								</div>
 							</div>
 							<div
-								class="absolute flex items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-cyan-900 rounded-full left-1/2 sm:translate-y-0"
+								class="bg-indigo-600 bg-indigo-600 absolute flex items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 rounded-full left-1/2 sm:translate-y-0"
 							>
 								<span class="text-white">1</span>
 							</div>
@@ -105,7 +108,7 @@ import Picture from '~/components/core/Picture.astro';
 						<div class="flex flex-col items-center js-show-on-scroll">
 							<div class="flex items-center justify-end w-full mx-auto">
 								<div class="w-full lg:w-1/2 lg:pl-8">
-									<div class="p-4 bg-white rounded shadow-lg shadow-red-300">
+									<div class="dark:bg-slate-800 p-4 bg-white rounded shadow-lg shadow-red-300">
 										<div class="pt-1 pb-8">
 											<p class="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">Architecture & Design</p>
 											<p class="text-justify justify-center pt-2">
@@ -119,7 +122,7 @@ import Picture from '~/components/core/Picture.astro';
 								</div>
 							</div>
 							<div
-								class="absolute flex items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-indigo-400 border-2 border-red-200 rounded-full left-1/2 sm:translate-y-0"
+								class="absolute flex items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-indigo-600 rounded-full left-1/2 sm:translate-y-0"
 							>
 								<span class="text-white">2</span>
 							</div>
@@ -146,7 +149,7 @@ import Picture from '~/components/core/Picture.astro';
 						<div class="flex flex-col items-center js-show-on-scroll">
 							<div class="flex items-center justify-start w-full mx-auto">
 								<div class="w-full lg:w-1/2 lg:pr-8">
-									<div class="p-4 bg-white rounded shadow-lg shadow-yellow-300">
+									<div class="dark:bg-slate-800 p-4 bg-white rounded shadow-lg shadow-yellow-300">
 										<div class="pt-1 pb-8">
 											<p class="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">Developing smart contracts</p>
 											<p class="text-justify justify-center pt-2">
@@ -159,7 +162,7 @@ import Picture from '~/components/core/Picture.astro';
 								</div>
 							</div>
 							<div
-								class="absolute flex items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-indigo-400 border-2 border-red-200 rounded-full left-1/2 sm:translate-y-0"
+								class="absolute flex items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-indigo-600 rounded-full left-1/2 sm:translate-y-0"
 							>
 								<span class="text-white">3</span>
 							</div>
@@ -186,7 +189,7 @@ import Picture from '~/components/core/Picture.astro';
 						<div class="flex flex-col items-center js-show-on-scroll">
 							<div class="flex items-center justify-end w-full mx-auto">
 								<div class="w-full lg:w-1/2 lg:pl-8">
-									<div class="p-4 bg-white rounded shadow-lg shadow-lime-300">
+									<div class="dark:bg-slate-800 p-4 bg-white rounded shadow-lg shadow-lime-300">
 										<div class="pt-1 pb-8">
 											<p class="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">Security Audit</p>
 											<p class="text-justify justify-center pt-2">
@@ -202,7 +205,7 @@ import Picture from '~/components/core/Picture.astro';
 								</div>
 							</div>
 							<div
-								class="absolute flex items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-indigo-400 border-2 border-red-200 rounded-full left-1/2 sm:translate-y-0"
+								class="absolute flex items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-indigo-600 rounded-full left-1/2 sm:translate-y-0"
 							>
 								<span class="text-white">4</span>
 							</div>
@@ -229,7 +232,7 @@ import Picture from '~/components/core/Picture.astro';
 						<div class="flex flex-col items-center js-show-on-scroll">
 							<div class="flex items-center justify-start w-full mx-auto">
 								<div class="w-full lg:w-1/2 lg:pr-8">
-									<div class="p-4 bg-white rounded shadow-lg shadow-yellow-300">
+									<div class="dark:bg-slate-800 p-4 bg-white rounded shadow-lg shadow-yellow-300">
 										<div class="pt-1 pb-8">
 											<p class="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">Deployment & Monitoring</p>
 											<p class="text-justify justify-center pt-2">
@@ -243,7 +246,7 @@ import Picture from '~/components/core/Picture.astro';
 								</div>
 							</div>
 							<div
-								class="absolute flex items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-indigo-400 border-2 border-red-200 rounded-full left-1/2 sm:translate-y-0"
+								class="absolute flex items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-indigo-600 rounded-full left-1/2 sm:translate-y-0"
 							>
 								<span class="text-white">5</span>
 							</div>

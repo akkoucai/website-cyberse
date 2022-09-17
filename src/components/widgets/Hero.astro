@@ -9,8 +9,7 @@ import Picture from '~/components/core/Picture.astro';
 			<div class="text-left pb-10 max-w-4xl md:pb-16">
 				<h1 class="text-5xl md:text-[3.50rem] font-bold leading-tighter tracking-tighter mb-4 font-heading">
 					Turn your idea into a
-					<span
-						class="bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-secondary-500 sm:whitespace-nowrap"
+					<span class="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-800 sm:whitespace-nowrap"
 						>powerful & scalable</span
 					>
 					dApp.
@@ -18,16 +17,14 @@ import Picture from '~/components/core/Picture.astro';
 				<div class="max-w-3xl">
 					<p class="text-xl text-gray-600 mb-8 dark:text-slate-400">
 						Cyberse provides our team of blockchain experts to guide you throughout your Web3 journey
-						<span
-							class="bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-secondary-500 sm:whitespace-nowrap"
-						>
+						<span class="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-800 sm:whitespace-nowrap">
 							from acculturation to production, with a special focus on security.
 						</span>
 					</p>
 					<div class="max-w-none flex flex-nowrap flex-col sm:flex-row sm:justify-left gap-4">
 						<div class="flex w-full sm:w-auto">
 							<a
-								class="btn text-white bg-gradient-to-r border border-primary-200 from-primary-500 to-secondary-500 hover:from-primary-500 hover:to-primary-500 sm:mb-0"
+								class="btn text-white bg-gradient-to-r border border-primary-200 from-cyan-400 to-blue-800 hover:from-cyan-400 hover:to-cyan-400 sm:mb-0"
 								href="https://github.com/onwidget/astrowind"
 								target="_blank"
 								rel="noopener"
@@ -48,13 +45,7 @@ import Picture from '~/components/core/Picture.astro';
 			</div>
 			<div>
 				<div class="mb-8 m-auto h-full">
-					<Picture
-						src={import('~/assets/images/eth_illustration.png')}
-						widths={[400, 768]}
-						sizes=" (max-width: 767px) 400px, 768px"
-						alt="Hero Image"
-						aspectRatio="16:9"
-					/>
+					<img src="/images/blockchain_animated.gif" alt="Illustration" />
 				</div>
 			</div>
 		</div>
