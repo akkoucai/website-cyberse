@@ -5,43 +5,43 @@ const items = [
 	{
 		title: 'Smart Contracts',
 		description:
-			'With deep expertise in Solidity and other blockchain-compatible programming languages, Cybser designs and implements dapps running on self-executing Ethereum, Solana and EVM-compatible blockchains smart contracts.',
-		icon: 'flat-color-icons:home',
+			'With deep expertise in Solidity and other blockchain-compatible programming languages, Cybser designs and implements self-executing Ethereum, Solana and EVM-compatible blockchains smart contracts.',
+		icon: 'images/audit.png',
 	},
 	{
 		title: 'Auditing',
 		description:
 			'Proofreading of the source code and thorough analysis of the code in view of describing the behavior of the smart contract when faced with all possible cases. We go above and beyond to secure data and digital assets.',
-		icon: 'flat-color-icons:faq',
+		icon: 'images/research.png',
 	},
 	{
 		title: 'Custom Solutions',
 		description:
 			'Our engineering team carries out your custom projects, from the initial idea to the final product by reviewing your use case, gathering user feedback and helping you with the final implementation of your solution.',
-		icon: 'flat-color-icons:video-projector',
+		icon: 'images/idea.png',
 	},
 	{
 		title: 'DApp Development',
 		description:
 			'Secure, trustless, rapid, scalable, and stable: Cyberse delivers effective dapps across verticals and industries.',
-		icon: 'flat-color-icons:video-projector',
+		icon: 'images/software.png',
 	},
 	{
 		title: 'NFT Services',
 		description:
 			'Stay ahead of innovation by harnessing the power of NFT services on Ethereum, EVM-compatible blockchains and Solana.',
-		icon: 'flat-color-icons:calculator',
+		icon: 'images/nft.png',
 	},
 	{
 		title: 'Consulting & Training',
 		description:
 			'Cyberse provides consulting and training services to help you build your own blockchain-based solutions.',
-		icon: 'flat-color-icons:voice-presentation',
+		icon: 'images/blockchain.png',
 	},
 ];
 ---
 
-<section class="relative">
+<section class="relative" id="features">
 	<div class="absolute inset-0 bg-primary-50 dark:bg-slate-800 pointer-events-none mb-32" aria-hidden="true"></div>
 	<div class="relative max-w-6xl mx-auto px-4 sm:px-6">
 		<div class="py-4 pt-8 sm:py-6 lg:py-8 lg:pt-12">
@@ -56,8 +56,7 @@ const items = [
 					items.map(({ title, description, icon }) => (
 						<div class="relative flex flex-col p-6 bg-white dark:bg-slate-900 rounded shadow-xl hover:shadow-lg transition dark:border dark:border-slate-800">
 							<div class="flex items-center mb-4">
-								<Icon name={icon} class="w-12 h-12" />
-
+								<img class="w-12 h-12" src={icon} alt={title} />
 								<div class="ml-4 text-xl font-bold">{title}</div>
 							</div>
 							<p class="text-gray-500 dark:text-gray-400 text-md">{description}</p>
