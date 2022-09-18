@@ -1,0 +1,123 @@
+{
+    "header": {
+      "services": "Services",
+      "process": "Our Process",
+      "features": "Features",
+      "faq": "FAQs"
+    },
+    "hero" : {
+        "slogan" : "Turn your idea into a <0>powerful & scalable</0> dApp.",
+        "subtitle" : "Cyberse provides our team of blockchain experts to guide you throughout your Web3 journey <0> from acculturation to production, with a special focus on security.</0>",
+        "button_discuss" : "Let's discuss",
+        "button_audit" : "Looking for an Audit ?"
+    },
+    "stats": {
+      "audits": "Audits completed",
+      "dapp" : "dApp developed",
+      "consulting" : "Consulting provided",
+      "clients" : "Clients satisfied"
+    },
+    "services" : {
+        "title" : "Services",
+        "subtitle" : "All you need to build your next blockchain project.",
+        "smartcontract" : {
+            "title" : "Smart Contracts",
+            "description" : "With deep expertise in Solidity and other blockchain-compatible programming languages, Cybser designs and implements self-executing Ethereum, Solana and EVM-compatible blockchains smart contracts."
+        },
+        "audit" : {
+            "title" : "Auditing",
+            "description" : "Proofreading of the source code and thorough analysis of the code in view of describing the behavior of the smart contract when faced with all possible cases. We go above and beyond to secure data and digital assets."
+        },
+        "custom" : {
+            "title" : "Custom Solutions",
+            "description" : "Our engineering team carries out your custom projects, from the initial idea to the final product by reviewing your use case, gathering user feedback and helping you with the final implementation of your solution."
+        },
+        "nft" : {
+            "title" : "NFT Services",
+            "description" : "Stay ahead of innovation by harnessing the power of NFT services on Ethereum, EVM-compatible blockchains and Solana."
+        },
+        "dapp" : {
+            "title" : "DApp Development",
+            "description" : "Secure, trustless, rapid, scalable, and stable: Cyberse delivers effective dapps across verticals and industries."
+        },
+        "consulting" : {
+            "title" : "Consulting & Training",
+            "description" : "Cyberse provides consulting and training services to help you build your own blockchain-based solutions."
+        }
+    },
+    "process" : {
+        "title" : "We guide you from idea to launch.",
+        "discovery" : {
+            "title" : "Discovery",
+            "description" : "At the beggining, we start to mapping out a timeline and resources for the development. We connect your value propositions with the corresponding software requirements — through interviews with stakeholders and end-users, technical research and architecture mockups, and feedback-driven iterations."
+        },
+        "design" : {
+            "title" : "Architecture & Design",
+            "description" : "We map out the architecture and depicts the business logic of the smart contracts. This phase is crucial and requires a lot of thought and effort to ensure the system is secure and scalable."
+        },
+        "smartcontract" : {
+            "title" : "Developing smart contracts",
+            "description" : "At cyberse, we use an agile development process to implement user-stories and features. We emphasize on automated testing and continuous integration to ensure the quality of the code. We also use a manual code review process to ensure the code is secure."
+        },
+        "audit" : {
+            "title" : "Security Audit",
+            "description" : "After contracts have been implemented, we prepare a security audit from a trusted third party. First, we confirm that our contracts meet our security and functional requirements and that our testnet deployment plan is sound. Then, we examine all security warnings in our cutting-edge audit software and painstakingly try to find ways to improve it if needed. Finally, as an added security measure, we prepare a spreadsheet that organizes each test scenario and exhibits the corresponding acceptance criterion from where we would count the point wise coverage."
+        },
+        "maintenance" : {
+            "title" : "Deployment & Monitoring",
+            "description" : "When the interal audit is complete, we use our monitoring tools to visualize and analyze the behavior of our smart contracts and ensure that everything works fine. Between audits, however, we already established a process to monitor whether our contracts behave as expected with real-time alerting."
+        }  
+    },
+    "features" : {
+        "title" : "FEATURES",
+        "subtitle" : "Why choose<0> <1>Cyberse</1> ?",
+        "team" : {
+            "title" : "Dedicated Team",
+            "description" : "A team of full-time developers will be dedicated on your projects, optimizing resource use and accelerating performance."
+        },
+        "skill" : {
+            "title" : "Deep development skill base",
+            "description" : "Our team has a deep understanding of the latest blockchain technologies and trends, and we’re always ready to apply them to your project."
+        },
+        "learning" : {
+            "title" : "Never stop learning",
+            "description" : "Your business is always on the move. So are we. We’re constantly improving our skills and understanding to deliver cutting-edge advice and services for you."
+        },
+        "maintenance" : {
+            "title" : "Round Clock Support & Maintenance",
+            "description" : "Our work in emerging technologies has helped us automate many aspects of any business workflow. We coordinate our efforts with global concerns based on clients’ time zones, to provide round the clock support. We tailor our processes to clients’ needs throughout the world."
+        }
+    },
+    "faq" : {
+        "title" : "Frequently Asked Questions",
+        "what_dapp" : {
+            "title" : "What is a dApp ?",
+            "description" : "A dApp is a decentralized application that runs on a blockchain network and uses the blockchain as a database."
+        },
+        "why_dapp" : {
+            "title" : "Why should I use a dApp ?",
+            "description" : "Decentralized apps (Dapps) are diverse and vary widely. They can provide social networks, games, entertainment, productivity tools or as services to help consumers access decentralized financial services, or “DeFi”. Many are designed to be tools that help consumers access decentralized financial services."
+        },
+        "what_nft" : {
+            "title" : "What is an NFT ?",
+            "description" : "An NFT is a digital asset that can come in the form of art, music, in-game items, videos, and more. In simple terms these cryptographic assets are based on blockchain technology. They cannot be exchanged or traded equivalently like other cryptographic assets."
+        },
+        "why_nft" : {
+            "title" : "Why use NFT technology ?",
+            "description" : "NFTs allow businesses to create digital proof of ownership, attendance, and even transference to different experiences they offer their customers."
+        },
+        "blockchain_area" : {
+            "title" : "Is blockchain applicable in my business area?",
+            "description" : "Blockchain can be found in practically every industry; and to clarify any doubts, we evaluate if blockchain tech could be viable for your needs based on your business situation and needs."
+        },
+        "blockchain_business" : {
+            "title" : "How can a blockchain application help my business ?",
+            "description" : "Blockchain-based apps use a distributed ledger system that is strictly secure, permits expeditious handling of transactions, and does not require a centralized intermediary. Only validated entries and transactions are kept. All this ensures verifiable, secure, and anonymous data flows too. Blockchain-based applications can enable your business to run more smoothly and reliably, with the absolute transparency of the processes, better traceability of data, hence we ensure the application is compliant with GDPR, HIPAA, PCI DSS, and other relevant laws and regulations."
+        }
+    },
+    "calltoaction" : {
+        "title" : "Have a project idea ? Let's talk about it!",
+        "description" : "Shoot us an email with your request, and we will contact you within one business day.",
+        "button" : "Get a free consultation"
+    }
+}

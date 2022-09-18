@@ -1,5 +1,7 @@
 ---
 import { Icon } from 'astro-icon';
+import { t, changeLanguage } from 'i18next';
+import { Trans, LanguageSelector } from 'astro-i18next/components';
 
 const items = [
 	{
@@ -41,28 +43,73 @@ const items = [
 ];
 ---
 
-<section class="relative" id="services">
+<section class="relative">
 	<div class="absolute inset-0 bg-primary-50 dark:bg-slate-800 pointer-events-none mb-32" aria-hidden="true"></div>
 	<div class="relative max-w-6xl mx-auto px-4 sm:px-6">
 		<div class="py-4 pt-8 sm:py-6 lg:py-8 lg:pt-12">
 			<div class="mb-8 text-center">
-				<h2 class="text-4xl md:text-5xl font-bold leading-tighter tracking-tighter mb-4 font-heading">Services</h2>
+				<h2 class="text-4xl md:text-5xl font-bold leading-tighter tracking-tighter mb-4 font-heading">
+					{t('services.title')}
+				</h2>
 				<p class="max-w-3xl mx-auto text-center text-xl text-gray-600 dark:text-slate-400">
-					All you need to build your next blockchain project.
+					{t('services.subtitle')}
 				</p>
 			</div>
 			<div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start my-12 dark:text-white">
-				{
-					items.map(({ title, description, icon }) => (
-						<div class="relative flex flex-col p-6 bg-white dark:bg-slate-900 rounded shadow-xl hover:shadow-lg transition dark:border dark:border-slate-800">
-							<div class="flex items-center mb-4">
-								<img class="w-12 h-12" src={icon} alt={title} />
-								<div class="ml-4 text-xl font-bold">{title}</div>
-							</div>
-							<p class="text-gray-500 dark:text-gray-400 text-md">{description}</p>
-						</div>
-					))
-				}
+				<div
+					class="relative flex flex-col p-6 bg-white dark:bg-slate-900 rounded shadow-xl hover:shadow-lg transition dark:border dark:border-slate-800"
+				>
+					<div class="flex items-center mb-4">
+						<img class="w-12 h-12" src={'images/audit.png'} alt={t('services.smartcontract.title')} />
+						<div class="ml-4 text-xl font-bold">{t('services.smartcontract.title')}</div>
+					</div>
+					<p class="text-gray-500 dark:text-gray-400 text-md">{t('services.smartcontract.description')}</p>
+				</div>
+				<div
+					class="relative flex flex-col p-6 bg-white dark:bg-slate-900 rounded shadow-xl hover:shadow-lg transition dark:border dark:border-slate-800"
+				>
+					<div class="flex items-center mb-4">
+						<img class="w-12 h-12" src={'images/research.png'} alt={t('services.audit.title')} />
+						<div class="ml-4 text-xl font-bold">{t('services.audit.title')}</div>
+					</div>
+					<p class="text-gray-500 dark:text-gray-400 text-md">{t('services.audit.description')}</p>
+				</div>
+				<div
+					class="relative flex flex-col p-6 bg-white dark:bg-slate-900 rounded shadow-xl hover:shadow-lg transition dark:border dark:border-slate-800"
+				>
+					<div class="flex items-center mb-4">
+						<img class="w-12 h-12" src={'images/idea.png'} alt={t('services.custom.title')} />
+						<div class="ml-4 text-xl font-bold">{t('services.custom.title')}</div>
+					</div>
+					<p class="text-gray-500 dark:text-gray-400 text-md">{t('services.custom.description')}</p>
+				</div>
+				<div
+					class="relative flex flex-col p-6 bg-white dark:bg-slate-900 rounded shadow-xl hover:shadow-lg transition dark:border dark:border-slate-800"
+				>
+					<div class="flex items-center mb-4">
+						<img class="w-12 h-12" src={'images/software.png'} alt={t('services.dapp.title')} />
+						<div class="ml-4 text-xl font-bold">{t('services.dapp.title')}</div>
+					</div>
+					<p class="text-gray-500 dark:text-gray-400 text-md">{t('services.dapp.description')}</p>
+				</div>
+				<div
+					class="relative flex flex-col p-6 bg-white dark:bg-slate-900 rounded shadow-xl hover:shadow-lg transition dark:border dark:border-slate-800"
+				>
+					<div class="flex items-center mb-4">
+						<img class="w-12 h-12" src={'images/nft.png'} alt={t('services.nft.title')} />
+						<div class="ml-4 text-xl font-bold">{t('services.nft.title')}</div>
+					</div>
+					<p class="text-gray-500 dark:text-gray-400 text-md">{t('services.nft.description')}</p>
+				</div>
+				<div
+					class="relative flex flex-col p-6 bg-white dark:bg-slate-900 rounded shadow-xl hover:shadow-lg transition dark:border dark:border-slate-800"
+				>
+					<div class="flex items-center mb-4">
+						<img class="w-12 h-12" src={'images/blockchain.png'} alt={t('services.consulting.title')} />
+						<div class="ml-4 text-xl font-bold">{t('services.consulting.title')}</div>
+					</div>
+					<p class="text-gray-500 dark:text-gray-400 text-md">{t('services.consulting.description')}</p>
+				</div>
 			</div>
 		</div>
 	</div>

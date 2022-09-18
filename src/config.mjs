@@ -5,7 +5,7 @@ export const SITE = {
 	basePathname: '/',
 
 	title: 'Cyberse',
-	description: '🚀 Cyberse is a free and ready to start template to make your website using Astro and Tailwind CSS.',
+	description: 'Cyberse provides our team of blockchain experts to guide you throughout your Web3 journey from acculturation to production, with a special focus on security.',
 
 	googleAnalyticsId: false, // or "G-XXXXXXXXXX",
 	googleSiteVerificationId: 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M',

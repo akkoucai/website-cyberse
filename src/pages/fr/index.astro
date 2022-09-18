@@ -1,0 +1,31 @@
+---
+import { changeLanguage } from "i18next";
+import { SITE } from "~/config.mjs";
+import { getCanonical, getHomePermalink } from "~/utils/permalinks";
+import Layout from "~/layouts/PageLayout.astro";
+import Hero from "~/components/widgets/Hero.astro";
+import Features from "~/components/widgets/Features.astro";
+import Features2 from "~/components/widgets/Features2.astro";
+import Steps2 from "~/components/widgets/Steps2.astro";
+import FAQs from "~/components/widgets/FAQs.astro";
+import Stats from "~/components/widgets/Stats.astro";
+import CallToAction from "~/components/widgets/CallToAction.astro";
+
+changeLanguage("fr");
+
+const meta = {
+    title: SITE.title,
+    description: SITE.description,
+    canonical: getCanonical(getHomePermalink()),
+};
+---
+
+<Layout {meta}>
+	<Hero />
+	<Stats />
+	<Features />
+	<Steps2 />
+	<Features2 />
+	<FAQs />
+	<CallToAction />
+</Layout>

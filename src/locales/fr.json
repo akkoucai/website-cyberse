@@ -1,0 +1,123 @@
+{
+    "header": {
+      "services": "Services",
+      "process": "Notre processus",
+      "features": "Pourquoi nous ?",
+      "faq": "FAQs"
+    },
+    "hero" : {
+        "slogan" : "Transformez votre idée en une application décentralisée <0>puissante & scalable</0>.",
+        "subtitle" : "Cyberse met à disposition notre équipe d'experts blockchain pour vous guider tout au long de votre parcours Web3,<0> de l'acculturation à la mise en production, avec un accent particulier sur la sécurité.</0>",
+        "button_discuss" : "Contactez-nous",
+        "button_audit" : "Vous recherchez un Audit ?"
+    },
+    "stats": {
+        "audits": "Audits accomplis",
+        "dapp" : "dApp developpées",
+        "consulting" : "Accompagnements réalisés",
+        "clients" : "Clients satisfaits"
+      },
+    "services" : {
+        "title" : "Services",
+        "subtitle" : "",
+        "smartcontract" : {
+            "title" : "Smart contracts",
+            "description" : "Grâce à son expertise approfondie de Solidity et Rust, Cybserse conçoit et met en œuvre des smart contracts compatibles avec les blockchains Ethereum, Solana et EVM-compatible."
+        },
+        "audit" : {
+            "title" : "Audits",
+            "description" : "Nous effectuons une relecture du code source et l'analysons de manière approfondie en vue de décrire le comportement du smart contract face à tous les cas possibles."
+        },
+        "custom" : {
+            "title" : "Sur-Mesure",
+            "description" : "Notre équipe d'ingénieurs réalise vos projets entièrement personnalisés, de l'idée initiale au produit final en examinant votre cas d'utilisation et en recueillant des feedbacks."
+        },
+        "nft" : {
+            "title" : "Service NFT",
+            "description" : "Restez à la pointe de l'innovation en exploitant la puissance des services NFT sur Ethereum, les blockchains compatibles EVM et Solana."
+        },
+        "dapp" : {
+            "title" : "",
+            "description" : "Sécurisé, rapide, évolutif et stable : Cyberse fournit des applications décentralisées puissante et scalable incluant les dernières technologies Web3."
+        },
+        "consulting" : {
+            "title" : "Accompagnements & formations",
+            "description" : "Cyberse propose des services de conseil et de formation pour vous aider à construire vos propres solutions basées sur la blockchain."
+        }
+    },
+    "process" : {
+        "title" : "Nous vous accompagnons de l'idée à la production finale.",
+        "discovery" : {
+            "title" : "Découverte",
+            "description" : "Dès le début, nous commençons à établir un calendrier et des ressources pour le développement. Nous établissons un lien entre vos propositions de valeur et les exigences logicielles correspondantes, par le biais d'entretiens avec les parties prenantes et les utilisateurs finaux, de recherches techniques, de maquettes d'architecture et d'itérations basées sur les feedbacks."
+        },
+        "design" : {
+            "title" : "Architecture & Design",
+            "description" : "Nous élaborons l'architecture et décrivons la logique commerciale des smart contracts. Cette phase est cruciale et nécessite beaucoup de réflexion et d'efforts pour garantir que le système soit sécurisé et évolutif. "
+        },
+        "smartcontract" : {
+            "title" : "Développement des smart contracts",
+            "description" : "Chez Cyberse, nous utilisons un processus de développement agile pour mettre en œuvre des user-stories et des fonctionnalités. Nous mettons l'accent sur les tests automatisés et l'intégration continue pour garantir la qualité du code. Nous utilisons également un processus de révision manuelle du code pour nous assurer que le code soit sécurisé."
+        },
+        "audit" : {
+            "title" : "Audit des smart contracts",
+            "description" : "Une fois les smart contracts contrats mis en œuvre, nous préparons un audit de sécurité interne par nos experts en cybersécurité. Tout d'abord, nous confirmons que nos smart contracts répondent à nos exigences en matière de sécurité et de fonctionnalité et que notre plan de déploiement de la batterie de test est solide. Ensuite, nous examinons tous les avertissements de sécurité dans notre logiciel d'audit de pointe et nous essayons minutieusement de trouver des moyens de l'améliorer si nécessaire. Enfin, comme mesure de sécurité supplémentaire, nous préparons une feuille de calcul qui organise chaque scénario de test et expose le critère d'acceptation correspondant à partir duquel nous comptons la couverture en points."
+        },
+        "maintenance" : {
+            "title" : "Déploiement & Maintenance",
+            "description" : "Lorsque l'audit interne est terminé, nous utilisons nos outils de surveillance pour visualiser et analyser le comportement de nos smart contracts et nous assurer que tout fonctionne bien. Entre les audits, cependant, nous avons déjà établi un processus pour surveiller si nos contrats se comportent comme prévu, avec des alertes en temps réel."
+        }  
+    },
+    "features" : {
+        "title" : "Une équipe d'experts blockchain",
+        "subtitle" : "Pourquoi choisir <0> <1>Cyberse</1> ?",
+        "team" : {
+            "title" : "Une Équipe Dédiée",
+            "description" : "Une équipe de développeurs à plein temps se consacrera à vos projets, optimisant l'utilisation des ressources et accélérant les performances."
+        },
+        "skill" : {
+            "title" : "Une Expertise Complète",
+            "description" : "Notre équipe a une connaissance approfondie des dernières technologies et tendances en matière de blockchain, et nous sommes toujours prêts à les appliquer à votre projet."
+        },
+        "learning" : {
+            "title" : "Une Culture d'Apprentissage",
+            "description" : "Nous sommes constamment à la recherche de nouvelles technologies et de nouvelles méthodologies pour améliorer nos processus et nos produits."
+        },
+        "maintenance" : {
+            "title" : "Une Maintenance Continue",
+            "description" : "Notre expérience dans les technologies émergentes nous a permis d'automatiser de nombreux aspects du flux de travail de toute entreprise. Notre équipe internationale nous permet de nous aligner sur les fuseaux horaires des clients, afin de fournir une assistance 24 heures sur 24. Nous adaptons nos processus aux besoins des clients dans le monde entier."
+        }
+    },
+    "faq" : {
+        "title" : "Foire Aux Questions",
+        "what_dapp" : {
+            "title" : "Qu'est-ce qu'une dApp ?",
+            "description" : "Une dApp est une application décentralisée qui fonctionne sur un réseau de blockchain et utilise la blockchain comme base de données."
+        },
+        "why_dapp" : {
+            "title" : "Pourquoi utiliser une dApp ?",
+            "description" : "Les applications décentralisées (Dapps) sont diverses et varient beaucoup. Elles peuvent être des applications tels qu'un réseau social, un jeu vidéo, une place de marché ou une plateforme pour aider les consommateurs à accéder à des services financiers décentralisés (DeFi)."
+        },
+        "what_nft" : {
+            "title" : "Qu'est-ce qu'un NFT ?",
+            "description" : "Un NFT (token non-fongible) est un actif numérique qui peut prendre la forme d'œuvres d'art, de musique, d'équipements dans un jeu vidéo, de vidéos, etc. En termes simples, ces actifs cryptographiques sont basés sur la technologie blockchain. Ils ne peuvent pas être échangés ou négociés de manière équivalente comme d'autres cryptomonnaies."
+        },
+        "why_nft" : {
+            "title" : "Pourquoi utiliser la technologie NFT?",
+            "description" : "Les NFTs permettent aux entreprises de créer des preuves numériques de propriété, de présence et même de transfert pour les différentes expériences qu'elles proposent à leurs clients."
+        },
+        "blockchain_area" : {
+            "title" : "La blockchain est-elle applicable dans mon secteur d'activité ?",
+            "description" : "La blockchain est présente dans pratiquement tous les secteurs d'activité. Pour dissiper tout doute, nous évaluons si la technologie blockchain pourrait être viable pour vos besoins en fonction de la situation et des besoins de votre entreprise."
+        },
+        "blockchain_business" : {
+            "title" : "Comment une application blockchain peut-elle aider mon entreprise ?",
+            "description" : "Les applications basées sur la blockchain utilisent un système de grand livre distribué qui est strictement sécurisé, permet un traitement rapide des transactions et ne nécessite pas d'intermédiaire centralisé. Seules les entrées et les transactions validées sont conservées. Tout cela garantit des flux de données vérifiables, sécurisés et anonymes. Les applications basées sur la blockchain peuvent permettre à votre entreprise de fonctionner de manière plus fluide et plus fiable, avec la transparence absolue des processus, une meilleure traçabilité des données, d'où nous nous assurons que l'application est conforme à GDPR, HIPAA, PCI DSS, et d'autres lois et règlements pertinents."
+        }
+    },
+    "calltoaction" : {
+        "title" : "Vous avez une idée ? Parlez-en avec nous !",
+        "description" : "Envoyez-nous un e-mail avec les détails de votre projet et nous vous contacterons dans les plus brefs délais.",
+        "button" : "Contactez-nous"
+    }
+}

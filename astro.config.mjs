@@ -7,6 +7,7 @@ import image from '@astrojs/image';
 import partytown from '@astrojs/partytown';
 import { SITE } from './src/config.mjs';
 import svelte from "@astrojs/svelte";
+import astroI18next from "astro-i18next";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -22,7 +23,7 @@ export default defineConfig({
     config: {
       applyBaseStyles: false
     }
-  }), sitemap(), image(),
+  }), sitemap(), image(), astroI18next(),
   /* Disable this integration if you don't use Google Analytics (or other external script). */
   partytown({
     config: {

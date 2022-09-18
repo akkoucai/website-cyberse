@@ -1,5 +1,7 @@
 ---
 import { Icon } from 'astro-icon';
+import { t, changeLanguage } from 'i18next';
+import { Trans, LanguageSelector } from 'astro-i18next/components';
 ---
 
 <section class="relative">
@@ -7,10 +9,10 @@ import { Icon } from 'astro-icon';
 		<div class="py-12 md:py-20">
 			<div class="max-w-3xl mx-auto text-center p-6 rounded-md shadow-xl dark:shadow-none">
 				<h2 class="text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">
-					<span>Have a project idea ? Let's talk about it!</span>
+					<span>{t('calltoaction.title')}</span>
 				</h2>
 				<p class="text-xl text-gray-600 dark:text-slate-400">
-					Shoot us an email with your request, and we will contact you within one business day.
+					{t('calltoaction.description')}
 				</p>
 
 				<div class="mt-6">
@@ -20,7 +22,8 @@ import { Icon } from 'astro-icon';
 						target="_blank"
 						rel="noopener"
 					>
-						<Icon name="bi:box-arrow-in-down-right" class="w-5 h-5 mr-1 -ml-1.5" /> Get a free consultation
+						<Icon name="bi:box-arrow-in-down-right" class="w-5 h-5 mr-1 -ml-1.5" />
+						{t('calltoaction.button')}
 					</a>
 				</div>
 			</div>

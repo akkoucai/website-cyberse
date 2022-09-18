@@ -1,6 +1,8 @@
 ---
 import { Icon } from 'astro-icon';
 import Picture from '~/components/core/Picture.astro';
+import { t, changeLanguage } from 'i18next';
+import { Trans, LanguageSelector } from 'astro-i18next/components';
 ---
 
 <section>
@@ -8,18 +10,24 @@ import Picture from '~/components/core/Picture.astro';
 		<div class="flex py-12 md:py-20 justify-center items-center">
 			<div class="text-left pb-10 max-w-4xl md:pb-16">
 				<h1 class="text-6xl md:text-7xl font-bold leading-tighter tracking-tighter mb-4 font-heading">
-					Turn your idea into a
-					<span class="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-800 sm:whitespace-nowrap"
-						>powerful & scalable</span
-					>
-					dApp.
+					<Trans i18nKey="hero.slogan">
+						Turn your idea into a
+						<span class="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-800 sm:whitespace-nowrap"
+							>powerful & scalable</span
+						>
+						dApp.
+					</Trans>
 				</h1>
 				<div class="max-w-3xl">
 					<p class="text-xl text-gray-600 mb-8 dark:text-slate-400">
-						Cyberse provides our team of blockchain experts to guide you throughout your Web3 journey
-						<span class="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-800 sm:whitespace-nowrap">
-							from acculturation to production, with a special focus on security.
-						</span>
+						<Trans i18nKey="hero.subtitle">
+							Cyberse provides our team of blockchain experts to guide you throughout your Web3 journey
+							<span
+								class="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-800 sm:whitespace-nowrap"
+							>
+								from acculturation to production, with a special focus on security.
+							</span>
+						</Trans>
 					</p>
 					<div class="max-w-none flex flex-nowrap flex-col sm:flex-row sm:justify-left gap-4">
 						<div class="flex w-full sm:w-auto">
@@ -29,7 +37,9 @@ import Picture from '~/components/core/Picture.astro';
 								target="_blank"
 								rel="noopener"
 							>
-								<Icon name="tabler:download" class="w-5 h-5 mr-1 -ml-1.5" /> Let's discuss
+								<Trans i18nKey="hero.button_discuss">
+									<Icon name="tabler:download" class="w-5 h-5 mr-1 -ml-1.5" /> Let's discuss
+								</Trans>
 							</a>
 						</div>
 						<div class="flex w-full sm:w-auto">
@@ -37,15 +47,18 @@ import Picture from '~/components/core/Picture.astro';
 								class="btn text-white bg-gray-900 hover:bg-gray-700 dark:bg-gray-700 dark:hover:bg-gray-800 w-full"
 								href="#features"
 							>
-								Looking for an Audit ?
+								<Trans i18nKey="hero.button_audit">Looking for an Audit ?</Trans>
 							</a>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div>
-				<div class="mb-8 m-auto h-full hidden lg:flex">
+				<div class="mb-8 m-auto h-full hidden lg:flex dark:hidden">
 					<img src="/images/blockchain_animated.gif" alt="Illustration" />
+				</div>
+				<div class="mb-8 m-auto h-full hidden lg:hidden dark:flex">
+					<img src="/images/blockchain_animated_black.gif" alt="Illustration" />
 				</div>
 			</div>
 		</div>

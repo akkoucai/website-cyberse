@@ -43,8 +43,11 @@
   },
   "dependencies": {
     "@astrojs/svelte": "^1.0.0",
+    "@material-tailwind/html": "^1.2.1",
+    "astro-i18next": "^1.0.0-beta.10",
     "autoprefixer": "^10.4.11",
     "cssnano": "^5.1.13",
+    "i18next-fs-backend": "^1.1.5",
     "sass": "^1.54.9",
     "svelte": "^3.50.1"
   }

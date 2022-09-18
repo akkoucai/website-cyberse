@@ -1,6 +1,7 @@
 ---
 import '~/assets/styles/base.css';
-
+import i18next from 'i18next';
+import { HeadHrefLangs } from 'astro-i18next/components';
 import MetaTags from '~/components/core/MetaTags.astro';
 import BasicScripts from '~/components/core/BasicScripts.astro';
 
@@ -8,9 +9,10 @@ const { meta = {} } = Astro.props;
 ---
 
 <!DOCTYPE html>
-<html lang="en" class="motion-safe:scroll-smooth 2xl:text-[20px]">
+<html lang={i18next.language} class="motion-safe:scroll-smooth 2xl:text-[20px]">
 	<head>
 		<MetaTags {...meta} />
+		<HeadHrefLangs />
 	</head>
 
 	<body class="antialiased text-gray-900 dark:text-slate-300 tracking-tight bg-white dark:bg-slate-900">
