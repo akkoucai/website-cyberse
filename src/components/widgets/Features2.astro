@@ -1,6 +1,7 @@
 ---
 import { t } from 'i18next';
 import { Trans } from 'astro-i18next/components';
+import { localizePath } from 'astro-i18next';
 
 const items = [
 	[
@@ -53,7 +54,7 @@ const items = [
 		<div class="grid mx-auto space-y-6 md:grid-cols-2 md:space-y-0">
 			<div class="space-y-8 sm:px-8">
 				<div class="flex flex-row max-w-md">
-					<img class="w-16 h-16 mr-5" src={'images/people.png'} alt={t('features.team.title')} />
+					<img class="w-16 h-16 mr-5" src={localizePath('images/people.png', 'en')} alt={t('features.team.title')} />
 
 					<div>
 						<h3 class="mb-3 text-xl font-bold">{t('features.team.title')}</h3>
@@ -61,7 +62,11 @@ const items = [
 					</div>
 				</div>
 				<div class="flex flex-row max-w-md">
-					<img class="w-16 h-16 mr-5" src={'images/learning.png'} alt={t('features.learning.title')} />
+					<img
+						class="w-16 h-16 mr-5"
+						src={localizePath('images/learning.png', 'en')}
+						alt={t('features.learning.title')}
+					/>
 
 					<div>
 						<h3 class="mb-3 text-xl font-bold">{t('features.learning.title')}</h3>
@@ -71,7 +76,11 @@ const items = [
 			</div>
 			<div class="space-y-8 sm:px-8">
 				<div class="flex flex-row max-w-md">
-					<img class="w-16 h-16 mr-5" src={'images/innovation.png'} alt={t('features.skill.title')} />
+					<img
+						class="w-16 h-16 mr-5"
+						src={localizePath('images/innovation.png', 'en')}
+						alt={t('features.skill.title')}
+					/>
 
 					<div>
 						<h3 class="mb-3 text-xl font-bold">{t('features.skill.title')}</h3>
@@ -79,7 +88,11 @@ const items = [
 					</div>
 				</div>
 				<div class="flex flex-row max-w-md">
-					<img class="w-16 h-16 mr-5" src={'images/time.png'} alt={t('features.maintenance.title')} />
+					<img
+						class="w-16 h-16 mr-5"
+						src={localizePath('images/time.png', 'en')}
+						alt={t('features.maintenance.title')}
+					/>
 
 					<div>
 						<h3 class="mb-3 text-xl font-bold">{t('features.maintenance.title')}</h3>
