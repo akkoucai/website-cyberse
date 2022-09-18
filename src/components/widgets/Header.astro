@@ -19,7 +19,7 @@ import { getPermalink, getBlogPermalink, getHomePermalink } from '~/utils/permal
 			<div class="flex items-center justify-center md:hidden">
 				<ToggleTheme />
 				<ToggleMenu />
-				<LanguageSelector showFlag={true} class="my-select-class" />
+				<LanguageSelector showFlag={true} class="appearance-none dark:bg-none" />
 			</div>
 		</div>
 		<nav
@@ -79,7 +79,7 @@ import { getPermalink, getBlogPermalink, getHomePermalink } from '~/utils/permal
 						</a>
 					</div>
 					<ToggleTheme iconClass="w-5 h-5 " />
-					<LanguageSelector showFlag={true} class="my-select-class" />
+					<LanguageSelector showFlag={true} class="appearance-none dark:bg-none dark:bg-slate-900" />
 					<!-- <a
 						href="https://github.com/onwidget/astrowind"
 						class="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
