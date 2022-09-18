@@ -61,7 +61,7 @@
         },
         "audit" : {
             "title" : "Audit des smart contracts",
-            "description" : "Une fois les smart contracts contrats mis en œuvre, nous préparons un audit de sécurité interne par nos experts en cybersécurité. Tout d'abord, nous confirmons que nos smart contracts répondent à nos exigences en matière de sécurité et de fonctionnalité et que notre plan de déploiement de la batterie de test est solide. Ensuite, nous examinons tous les avertissements de sécurité dans notre logiciel d'audit de pointe et nous essayons minutieusement de trouver des moyens de l'améliorer si nécessaire. Enfin, comme mesure de sécurité supplémentaire, nous préparons une feuille de calcul qui organise chaque scénario de test et expose le critère d'acceptation correspondant à partir duquel nous comptons la couverture en points."
+            "description" : "Une fois les smart contracts mis en œuvre, nous préparons un audit de sécurité interne par nos experts en cybersécurité. Tout d'abord, nous confirmons que nos smart contracts répondent à nos exigences en matière de sécurité et de fonctionnalité et que notre plan de déploiement de la batterie de test est solide. Ensuite, nous examinons tous les avertissements de sécurité dans notre logiciel d'audit de pointe et nous essayons minutieusement de trouver des moyens de l'améliorer si nécessaire. Enfin, comme mesure de sécurité supplémentaire, nous préparons une feuille de calcul qui organise chaque scénario de test et expose le critère d'acceptation correspondant à partir duquel nous comptons la couverture en points."
         },
         "maintenance" : {
             "title" : "Déploiement & Maintenance",
