@@ -22,7 +22,7 @@
         "subtitle" : "",
         "smartcontract" : {
             "title" : "Smart contracts",
-            "description" : "Grâce à son expertise approfondie de Solidity et Rust, Cybserse conçoit et met en œuvre des smart contracts compatibles avec les blockchains Ethereum, Solana et EVM-compatible."
+            "description" : "Grâce à son expertise approfondie de Solidity et Rust, Cyberse conçoit et met en œuvre des smart contracts compatibles avec les blockchains Ethereum, Solana et EVM-compatible."
         },
         "audit" : {
             "title" : "Audits",
@@ -33,11 +33,11 @@
             "description" : "Notre équipe d'ingénieurs réalise vos projets entièrement personnalisés, de l'idée initiale au produit final en examinant votre cas d'utilisation et en recueillant des feedbacks."
         },
         "nft" : {
-            "title" : "Service NFT",
+            "title" : "Services personnalisés NFT",
             "description" : "Restez à la pointe de l'innovation en exploitant la puissance des services NFT sur Ethereum, les blockchains compatibles EVM et Solana."
         },
         "dapp" : {
-            "title" : "Développement d'applications décentralisées",
+            "title" : "Développement de dApps",
             "description" : "Sécurisé, rapide, évolutif et stable : Cyberse fournit des applications décentralisées puissante et scalable incluant les dernières technologies Web3."
         },
         "consulting" : {
@@ -112,7 +112,7 @@
         },
         "blockchain_business" : {
             "title" : "Comment une application blockchain peut-elle aider mon entreprise ?",
-            "description" : "Les applications basées sur la blockchain utilisent un système de grand livre distribué qui est strictement sécurisé, permet un traitement rapide des transactions et ne nécessite pas d'intermédiaire centralisé. Seules les entrées et les transactions validées sont conservées. Tout cela garantit des flux de données vérifiables, sécurisés et anonymes. Les applications basées sur la blockchain peuvent permettre à votre entreprise de fonctionner de manière plus fluide et plus fiable, avec la transparence absolue des processus, une meilleure traçabilité des données, d'où nous nous assurons que l'application est conforme à GDPR, HIPAA, PCI DSS, et d'autres lois et règlements pertinents."
+            "description" : "Les applications basées sur la blockchain utilisent un système de grand livre distribué qui est strictement sécurisé, permet un traitement rapide des transactions et ne nécessite pas d'intermédiaire centralisé. Seules les entrées et les transactions validées sont conservées. Tout cela garantit des flux de données vérifiables, sécurisés et anonymes. Les applications basées sur la blockchain peuvent permettre à votre entreprise de fonctionner de manière plus fluide et plus fiable, avec la transparence absolue des processus et une meilleure traçabilité des données."
         }
     },
     "calltoaction" : {

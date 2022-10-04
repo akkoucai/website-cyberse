@@ -22,7 +22,7 @@
         "subtitle" : "All you need to build your next blockchain project.",
         "smartcontract" : {
             "title" : "Smart Contracts",
-            "description" : "With deep expertise in Solidity and other blockchain-compatible programming languages, Cybser designs and implements self-executing Ethereum, Solana and EVM-compatible blockchains smart contracts."
+            "description" : "With deep expertise in Solidity and other blockchain-compatible programming languages, Cyberse designs and implements self-executing Ethereum, Solana and EVM-compatible blockchains smart contracts."
         },
         "audit" : {
             "title" : "Auditing",
@@ -112,7 +112,7 @@
         },
         "blockchain_business" : {
             "title" : "How can a blockchain application help my business ?",
-            "description" : "Blockchain-based apps use a distributed ledger system that is strictly secure, permits expeditious handling of transactions, and does not require a centralized intermediary. Only validated entries and transactions are kept. All this ensures verifiable, secure, and anonymous data flows too. Blockchain-based applications can enable your business to run more smoothly and reliably, with the absolute transparency of the processes, better traceability of data, hence we ensure the application is compliant with GDPR, HIPAA, PCI DSS, and other relevant laws and regulations."
+            "description" : "Blockchain-based apps use a distributed ledger system that is strictly secure, permits expeditious handling of transactions, and does not require a centralized intermediary. Only validated entries and transactions are kept. All this ensures verifiable, secure, and anonymous data flows too. Blockchain-based applications can enable your business to run more smoothly and reliably, with the absolute transparency of the processes and better traceability of data."
         }
     },
     "calltoaction" : {
