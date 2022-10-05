@@ -49,11 +49,11 @@
         "title" : "We guide you from idea to launch.",
         "discovery" : {
             "title" : "Discovery",
-            "description" : "At the beggining, we start to mapping out a timeline and resources for the development. We connect your value propositions with the corresponding software requirements — through interviews with stakeholders and end-users, technical research and architecture mockups, and feedback-driven iterations."
+            "description" : "At the beggining, we start to map out a timeline and resources for the development. We connect your value propositions with the corresponding software requirements — through interviews with stakeholders and end-users, technical research and architecture mockups, and feedback-driven iterations."
         },
         "design" : {
             "title" : "Architecture & Design",
-            "description" : "We map out the architecture and depicts the business logic of the smart contracts. This phase is crucial and requires a lot of thought and effort to ensure the system is secure and scalable."
+            "description" : "We map out the architecture and depict the business logic of the smart contracts. This phase is crucial and requires a lot of thought and effort to ensure the system is secure and scalable."
         },
         "smartcontract" : {
             "title" : "Developing smart contracts",
